@@ -10,7 +10,7 @@ vscode 写markdown 体验非常好了，再用 `git` 做版本控制体验就不
 ## 清除已失效的图片
 
 ```shell
-node scripts/clean_not_used_attachments.js
+node scripts/clean_useless_attachments.js
 ```
 
 ## 注意点
