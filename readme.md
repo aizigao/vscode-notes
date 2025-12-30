@@ -1,21 +1,23 @@
-# 用 vscode 写个笔记用
+# Using VSCode for Notes
 
-vscode 写markdown 体验非常好了，再用 `git` 做版本控制体验就不错了，只是图片上传有些蛋疼，发现 `Paste Image` 这个插件可以解决我的问题，所以我上传这个仓库，在`.vscode`中写入了我的配置。
+[中文说明](./readme-zh.md)
+
+VSCode provides an excellent experience for writing Markdown. Combined with `git` for version control, it works great. The only pain point is image uploading. I found the `Paste Image` plugin solves this problem, so I uploaded this repository with my configuration in `.vscode`.
 
 ![readme__2021-08-13-15-45-03](/attachments/readme__2021-08-13-15-45-03.png)
 
-## 安装
+## Installation
 
-- 先 fork 下来
-- 需要安装[Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) 这个插件
-- 在 note 里写笔记
+- Fork this repository first
+- Install the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) plugin
+- Write your notes in the note folder
 
-## 清除已失效的图片
+## Clean Up Unused Images
 
 ```shell
 node scripts/clean_useless_attachments.js
 ```
 
-## 注意点
+## Notes
 
-- `.vscode` 文件夹放了 `Paste Image` 插件的配置, 可以自行修改, 默认热键是 `cmd + alt + v` (window `ctrl+alt+v`), 或者 `cmd + shift + p` 调出 `paste image`
+- The `.vscode` folder contains the configuration for the `Paste Image` plugin, which you can modify as needed. The default hotkey is `cmd + alt + v` (Windows `ctrl+alt+v`), or you can use `cmd + shift + p` to bring up `paste image`
